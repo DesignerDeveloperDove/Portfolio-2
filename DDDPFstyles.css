@@ -1,0 +1,830 @@
+@font-face {
+    font-family: MyFont;
+    src: url( Koulen.ttf);
+}
+@font-face {
+    font-family: MyFont2;
+    src: url( BeauRivage-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-size: 40px;
+    font-family: MyFont;
+    src: url( Koulen.ttf);
+    background-color:#040D3A;
+    padding:none;
+}
+.NavParent{
+    background-color: rgba(240, 255, 255, 0);
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding-bottom: 3%;
+
+}
+.NavChild1 img{
+    width: 12%;
+    padding: 1%;
+    
+}
+.NavChild2 {
+    font-family: MyFont;
+    display: flex;
+    flex-direction: row;
+    color: ghostwhite;
+    width: 100%;
+    font-size: 40px;
+    padding-left: 4%;
+   
+}
+.NavChild2 p{
+    padding-left: 4%;
+}
+.NavChild2 th{
+    margin-left: 4%;
+}
+.MainHeaderchild1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+padding-left: 4%;
+padding-right: 4%;
+color: ghostwhite;
+font-family: Arial, Helvetica, sans-serif;
+font-style: bold;
+}
+.MainHeaderchild2 h5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+.ButtonSpaceParent{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+}
+.ButtonSpaceChild1{
+    background-color: ghostwhite;
+    width: 300px;
+    height: 100px;
+    color: #040D3A;
+    font-family: MyFont;
+    text-align: center;
+    font-style: bold;
+    padding-bottom: 1%;
+    padding-top: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-right: 3%;
+
+}
+.ButtonSpaceChild2{
+    border:solid ghostwhite;
+    border-width: 10px;
+    width: 300px;
+    height: 100px;
+    color: ghostwhite;
+    font-family: MyFont;
+    text-align: center;
+    font-style: bold;
+    padding-bottom: 0%;
+    padding-top: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+hr{
+    height: 110px;
+    width: 5px;
+    background-color: ghostwhite;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-block-start: 0%;
+}
+.Page2{
+    background-color: ghostwhite;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 1%; 
+}
+.InfoStrip h4{
+    color: ghostwhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0%;
+}
+h4{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0%;
+}
+.Card3 p{
+    position: relative;
+    bottom: 550px;
+    right: 3%;
+    font-size: 40px;
+    color: rgb(44, 44, 82);
+    
+}
+.Heading1{
+    font-family: MyFont;
+    padding-top: 2%;
+    padding-left: 4%;
+
+}
+
+
+.TableOfSkills{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+
+}
+
+
+
+.TableOfSkills2{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+}
+
+.CircleImg1 img{
+    width: 100%;
+}
+.CircleImg2 img{
+    width: 90%;
+}
+.CircleImg3 img{
+    width: 100%;
+}
+.CircleImg4 img{
+    width: 100%;
+}
+.CircleImg1{
+    width: 150px;
+    height: 150px;
+    margin: 1%;
+}
+
+.CircleImg2{
+    width: 150px;
+    height: 150px;
+    margin: 1%;
+}
+.CircleImg3{
+    width: 100px;
+    height: 100px;
+    
+    margin: 1%;
+}
+.CircleImg4{
+    width: 100px;
+    height: 100px;
+    
+    margin: 1%;
+}
+.Row2 th{
+    padding-left: 3%;
+    
+}
+
+.ImageOfMe  img{
+width: 70%;
+height: auto;
+border-radius: 100%;
+display: flex;
+float: right;
+
+
+}
+.SummaryDiv{
+    padding-left:5%
+}
+.SummaryDiv p{
+    width:90%;
+    text-align:center;
+
+}
+.Footer{
+    background-color: rgba(240, 255, 255, 0);
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    height:90%;
+}
+.LeftColumn{
+    flex-direction:column;
+    font-family:MyFont;
+    color:ghostwhite;
+    padding-left:5%;
+}
+.MiddleColumn{
+    flex-direction:column;
+    font-family:MyFont;
+    color:ghostwhite;
+    padding-left:10%;
+    width: 50%;
+
+}
+.MiddleColumn h1{
+    flex-direction:column;
+    font-family:MyFont2;
+    color:ghostwhite;
+    padding-left:10%;
+    width: 50%;
+}
+.MiddleColumnImg img{
+    flex-direction:column;
+    width:50%;
+
+}
+.RightColumn{
+    flex-direction:column;
+    font-family:MyFont;
+    color:ghostwhite;
+    float: right;
+}
+.RightColumn h5{
+    flex-direction:column;
+    font-family:MyFont;
+    color:ghostwhite;
+    padding-right:10%;
+    width:100%;
+    
+}
+
+.CircleColumn img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    margin: 1%;
+    margin-bottom: 5%;
+}
+
+
+
+.Page2d{
+    background-color: ghostwhite;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 0%; 
+}
+.BOX1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 35%;
+    width: 60%;
+    height: 30%    ;
+    background-color: ghostwhite;
+    margin-left: 13%;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.BOX1 h1{
+    text-align: center;
+    width: 50%;
+    font-size: 90px;
+    padding-bottom: 2%;
+}
+.em{
+    color: black;
+}
+.BOX1 em{
+    color: #F4847E;
+}
+
+.Heading2{
+    color: #F4847E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.Heading2 em{
+    color: black;
+}
+.DProw1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.Card1D {
+    width: 30%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #040D3A;
+    margin: 1%;
+    margin-left: 4%;
+    
+}
+.Card1 {
+    width: 30%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+    margin: 1%;
+    margin-left: 4%;
+    
+}
+
+.Card2 {
+    width: 30%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.Card3 {
+    width: 30%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #040D3A;
+    margin: 1%;
+}
+
+.Card1D img{
+    width: 70%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+    margin-left: 15%;
+    
+}
+
+.Card1 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+   
+}
+.Card2 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+   
+}
+.Card3 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+   
+}
+.InfoStrip{
+    flex-direction:column;
+    font-family:MyFont;
+    color:ghostwhite;
+    width:100%;
+    text-align: center;
+}
+.Page3d{
+    background-color: ghostwhite;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 1%; 
+}
+.Page3d em{
+    color: black;
+}
+
+.Card1-2 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+   
+}
+
+.Card2-2 img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+    
+    
+}
+.Card3-2 img{
+    width:100%;
+    height: 400px;
+    border-radius: 10%;
+    
+    
+}
+.Card1-2{
+    width: 30%;
+    height: 80%;
+    height: 300px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+
+.Card2-2{
+    width: 30%;
+    height: 500px;
+    border-radius: 10%;
+    background-color: #D9D9D9;
+    margin: 1%;
+    margin-bottom: 3%;
+    
+}
+.Card3-2{
+    width: 30%;
+    height: 400px;
+    border-radius: 10%;
+    background-color: #040D3A;
+    margin: 1%;
+}
+.NavChild2-2  {
+    font-family: MyFont;
+    display: flex;
+    flex-direction: row;
+    color: ghostwhite;
+    width: 100%;
+    font-size: 30px;
+    padding-left: 30%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+   
+}
+.one{
+    padding-left: 5%;
+}
+.two{
+    padding-left: 5%;
+}
+.three{
+    padding-left: 5%;
+}
+.Footer2 h2{
+    flex-direction:column;
+    font-family:MyFont;
+    color:ghostwhite;
+    width:100%;
+    text-align: center;
+}
+
+.BOX1-2{
+    text-align: center;
+    width: 50%;
+    font-size: 90%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10%;
+    width: 60%;
+    height: 10%;
+    background-color: ghostwhite;
+    margin-left: 13%;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+.BOX1-2 em{
+    color: #F4847E;
+}
+.MainHeaderchild3{
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+color: ghostwhite;
+font-family: MyFont;
+font-style: bold;
+padding-left: 4%;
+padding-right: 4%;
+}
+.Heading3 em{
+    color: #F4847E;
+}
+.Heading3{
+    color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    text-align: center;
+    padding-left: 7%;
+    font-size: 30px;
+}
+.CirCard1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard5 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.CirCard5{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+}
+.DProw1 p{
+    padding-top: none;
+    padding-left: 30%;
+    position: relative;
+    bottom:70px;
+}
+.Footer3 p{
+    flex-direction:column;
+    font-family:MyFont;
+    color:ghostwhite;
+    width: 94%;
+    text-align: center;
+    padding-left: 3%;
+}
+
+
+.Heading2_2{
+    color: #F4847E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.CircleColumn{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    margin-left: 5%;
+}
+.RowCircle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+    margin-bottom: 5%;
+}
+.RowCircle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+    margin-bottom: 5%;
+}
+.RowCircle3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    margin: 1%;
+    margin-bottom: 5%;
+}
+.InfoDiv{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    position: absolute;
+    left:30%;
+    top: 930px;
+}
+.Info1{
+    position: relative;
+    
+}
+.Info1 p{
+    font-size: medium;
+    margin-top: -40px;
+}
+
+.Info2{
+    position: relative;
+    
+}
+.Info2 p{
+    font-size: medium;
+    margin-top: -40px;
+}
+.Info3{
+    position: relative;
+}
+.Info3 p{
+    font-size: medium;
+    margin-top: -40px;
+}
+.DesignOrImage{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: absolute;
+    left:70%;
+    top: 930px;
+}
+.DIOBlock{
+    width: 350px;
+    height: 650px;
+    background-color: #D9D9D9;
+}
+.DIOBlock img{
+    width: 100%;
+}
+.Heading2_3{
+    color: #F4847E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: none;
+}
+.Row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    align-items: center;
+}
+.CardDesign{
+    background-color: #1f1f1f;
+    width: 300px;
+    height: 300px;
+    margin: 1%;
+    border-radius: 10%;
+}
+.Row h3{
+    color: #F4847E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.ContactForm{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ContactInputs{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid #040D3A;
+    outline:none;
+    padding-left: 10%;
+    font-weight: 100;
+    border-radius: 15%;
+    margin-top: 5%;
+    
+    
+
+}
+textarea{
+    padding-top: 10%;
+}
+.ContactInputs :hover{
+    border: 2px solid #F4847E; ;
+
+}
+.ContactInputs::placeholder{
+    font-family: MyFont;
+    font-size: 4vh;
+    color: #040D3A;
+}
+.ContactForm button{
+    display: flex;
+    align-items:center;
+    padding: 15px,30px;
+    font-size: larger;
+    color: ghostwhite;
+    gap: 10px;
+    border: none;
+    border-radius: 20%;
+    background:linear-gradient(
+        #040D3A,#F4847E
+    );
+    margin-left: 35%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+@media (max-width:800px) {
+    .ContactInputs{
+        width: 80%;
+    }
+}
+.Page2d p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.ButtonSpaceChild1 a{
+    text-decoration: none;
+    color: #040D3A ;
+}
